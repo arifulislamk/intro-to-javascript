@@ -1,10 +1,15 @@
 const name = ['ariful', 'shakib'];
 const number = [ 1, 2, 3, 4, 5] ;
-console.log(number.length);
-console.log(number[2]);
-console.log(number.includes(5));
-console.log(number.indexOf(2));
-console.log(Array.isArray(name));
+number.splice(1, 0, 'ariful', 'shakib', 11, 22, 33, 44);
+console.log(number);
+console.log(number.slice(2,4));
+// console.log(number.length);
+// console.log(number[2]);
+// console.log(number.includes(5));
+// console.log(number.indexOf(2));
+// console.log(Array.isArray(name));
+
+
 // console.log(number);
 // const shift1 = number.shift();
 // number.pop();
