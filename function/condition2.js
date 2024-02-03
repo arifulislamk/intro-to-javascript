@@ -5,4 +5,5 @@ function isOdd(number){
     return false;
 }
 console.log(isOdd(10));
+
 console.log(isOdd(215413))
